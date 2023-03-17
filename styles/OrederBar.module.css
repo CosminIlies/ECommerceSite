@@ -1,0 +1,34 @@
+.orderBar{
+    width: 100%;
+    background-color: #01193C;
+    padding: 5px;
+    margin:15px 0 15px 0;
+    border-radius: 25px 0 0 25px;
+    display:flex;
+}
+
+.orderDropDownContainer{
+    position: relative;
+    left:50px;
+    display: flex;
+    align-items: center;
+    color:#62D9FF;
+    font-size: 20px;
+}
+
+.orderDropDownContainer select{
+    height: 30px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: solid #62D9FF 2px;
+    border-radius: 5px;
+    color: #62D9FF;
+    outline: none;
+    
+}
+
+.orderDropDownContainer option{
+    background-color: #000B1B;
+    border: transparent;
+
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.nav{
+    width: 100%;
+    height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav p{
+    color:#62D9FF;
+    font-weight: 500;
+}
+
+
+
+.logo{
+    text-align: center;
+    flex:2;
+}
+.logoText{
+    font-size: 75px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #8F00FF, #62D9FF);
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+.searchbar{
+    width: 100%;
+    text-align: center;
+    flex:6;
+}
+
+.searchbar form{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: solid #62D9FF 4px; 
+    display: flex;
+}
+
+
+.searchbar input{
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+    padding: 15px;
+    color:#62D9FF;
+    font-weight: 500;
+
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    flex:19;
+}
+
+.searchbar button{
+    background-color: transparent;
+    border: transparent;
+    flex:1;
+}
+
+.searchbar img{
+    width: 25px;
+}
+
+
+
+
+.favorite{
+    text-align: center;
+    flex:1;
+}
+
+.favorite img{
+    width: 45px;
+
+}
+
+
+.cart{
+    text-align: center;
+    justify-content: center;
+    flex:1;
+    display: flex;
+}
+
+.cart img{
+    width: 45px;
+    height: 45px;
+}
+.cart p{
+    position: relative;
+    top:-15px;
+    left: -10px;
+    background-color: #8F00FF;
+    color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+.account{
+    text-align: center;
+    flex:1;
+}
+.account img{
+    width: 40px;
+}
+.account .arrow{
+    transform: rotateZ(90deg);
+}
+
+
+
+.separator{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(90deg, #8F00FF, #62D9FF);
+}
+
+.separator button{
+
+    margin:0 0 0 15px;
+    background-color: #000B1B;
+    width: 125px;
+    height: 30px;
+    border:transparent;
+    border-radius:10px;
+}
